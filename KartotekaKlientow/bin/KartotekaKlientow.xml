@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KartotekaKlientow
+</name>
+</assembly>
+<members>
+<member name="T:KartotekaKlientow.My.Resources.Resources">
+<summary>
+  Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.ResourceManager">
+<summary>
+Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.Culture">
+<summary>
+  Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+  przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources._EXIT">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.close_16">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.ESCAPE">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.ESCAPE2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.Globe">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.KOPERTA">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.logomini">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.MrJones">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.ROZWIN3">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.SZUKAJ2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.SZUKAJ3">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="P:KartotekaKlientow.My.Resources.Resources.Tabela">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+</summary>
+</member>
+<member name="M:KartotekaKlientow._modeMail.IsValidEmail(System.String)">
+ <summary>
+ method for determining is the user provided a valid email address
+ We use regular expressions in this check, as it is a more thorough
+ way of checking the address provided
+ </summary>
+ <param name="email">email address to validate</param>
+ <returns>true is valid, false if not valid</returns>
+</member>
+</members>
+</doc>

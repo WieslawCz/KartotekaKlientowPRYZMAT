@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{269D70A2-1F65-4EC5-80A3-63D93ABCC14F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\MrJones.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>KartotekaKlientow</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>KartotekaKlientow</RootNamespace>
+    <StartupObject>KartotekaKlientow.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/KartotekaKlientow/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.30.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>KartotekaKlientow.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>KartotekaKlientow.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>KartotekaKlientow.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>KartotekaKlientow.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\___Tools\__SharpZip\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DAO">
+      <Name>Interop.DAO</Name>
+      <HintPath>..\..\..\..\___DAO\Interop.DAO.dll</HintPath>
+    </Reference>
+    <Reference Include="MICROSOFT.OFFICE.INTEROP.EXCEL, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\_MicrosoftOfficeInterop_2003\MICROSOFT.OFFICE.INTEROP.EXCEL.DLL</HintPath>
+    </Reference>
+    <Reference Include="MICROSOFT.OFFICE.INTEROP.OUTLOOK, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\_MicrosoftOfficeInterop_2003\MICROSOFT.OFFICE.INTEROP.OUTLOOK.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=13.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.SqlServer.ConnectionInfo\11.0.0.0__89845dcd8080cc91\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=13.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.SqlServer.Management.Sdk.Sfc\11.0.0.0__89845dcd8080cc91\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="MICROSOFT.VBE.INTEROP, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\_MicrosoftOfficeInterop_2003\MICROSOFT.VBE.INTEROP.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AkcjaMarketingowaDodajDo.designer.vb">
+      <DependentUpon>AkcjaMarketingowaDodajDo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaDodajDo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaUsunZ.designer.vb">
+      <DependentUpon>AkcjaMarketingowaUsunZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaUsunZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzKilka.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierzKilka.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzKilka.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgObrotow.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierzWgObrotow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgObrotow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgOsobKontaktowych.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierzWgOsobKontaktowych.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgOsobKontaktowych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgSprzedazy.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierzWgSprzedazy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgSprzedazy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgUslug.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierzWgUslug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierzWgUslug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AktualizacjaStrukturBazyDanych.designer.vb">
+      <DependentUpon>AktualizacjaStrukturBazyDanych.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AktualizacjaStrukturBazyDanych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiwizacjaDanych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiwizacjaDanychSQL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSoftartColoredDataGridTableStyle2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsSoftartDataEncription.Designer.vb">
+      <DependentUpon>clsSoftartDataEncription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clsSoftartDataEncription.vb">
+    </Compile>
+    <Compile Include="clsSoftartDataGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsSoftartDataGridRowHeightSetter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSoftartDataGridTableStyle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsSoftartDropShadowForm.designer.vb">
+      <DependentUpon>clsSoftartDropShadowForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clsSoftartDropShadowForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsSoftartPrintDocument.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CoDziala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujGeneratorWydrukow.Designer.vb">
+      <DependentUpon>EdytujGeneratorWydrukow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EdytujGeneratorWydrukow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogAkcjeSpec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogAkcjiOpis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogBranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogCoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogDaneDoRaportu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogKartPayBack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogKlientow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogObrotow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogObrotowMies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogOsob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogPodbranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogRodzajowKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogSlownikCoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdytujKatalogUzytkownikow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eMailing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalizaCzestKontaktow.Designer.vb">
+      <DependentUpon>frmAnalizaCzestKontaktow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalizaCzestKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalizaCzestKontaktowGrupowa.designer.vb">
+      <DependentUpon>frmAnalizaCzestKontaktowGrupowa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalizaCzestKontaktowGrupowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrukujRaportAktywnosci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrukujRaportAktywnosci0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrukujRaportRealizacjiPlanu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrukujRaportRozkladKlientowIObrotu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdytujKatalogLogAktywnosci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdytujKatalogUzytkownikow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdytujTabele.Designer.vb">
+      <DependentUpon>frmEdytujTabele.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdytujTabele.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEksportDanychAnalizaKlienci80.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEksportDanychAnalizaMarketingowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEksportDanychAnalizaWskaznikowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEksportDanychRankingWskaznikow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIdentyfikacjaUzytkownika.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportujKlientow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKatalogLogAktywnosci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKorektaRZU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPobierzZPlikuBranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZmianaHasla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneratorWydrukow.Designer.vb">
+      <DependentUpon>GeneratorWydrukow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneratorWydrukow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalendarz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogAkcjiOpis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogBranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogCoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogDaneDoRaportu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogHarmonogramWizyt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katalogi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogiSQL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogiSQLZawartosc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogiZawartosc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKartPayBack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKlientow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKlientowAnaliza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKlientowICoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKlientowIKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogObrotow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogObrotowMies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogOsob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogPodbranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogRodzajowKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogSlownikCoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KatalogUzytkownikow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modData.vb" />
+    <Compile Include="modDefinicje.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modDrukowanie.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modFiltrowanie.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modGeneratorWydrukow.vb" />
+    <Compile Include="modIdentyfikacja.vb" />
+    <Compile Include="modKompresja.vb" />
+    <Compile Include="modKonwersjaDaty.vb" />
+    <Compile Include="modOutlook.vb" />
+    <Compile Include="modParametry.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modSoftart.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modStruktury.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modStrukturyAnaliza.vb" />
+    <Compile Include="modStrukturyBazaNadrzedna.vb" />
+    <Compile Include="modStrukturyFiltrowanie.vb" />
+    <Compile Include="modStrukturyKlienci.vb" />
+    <Compile Include="modStrukturyLogAktywnosci.vb" />
+    <Compile Include="modStrukturyObroty.vb" />
+    <Compile Include="modStrukturySlowniki.vb" />
+    <Compile Include="modUprawnienia.vb" />
+    <Compile Include="modWyliczenia.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaNowa.designer.vb">
+      <DependentUpon>AkcjaMarketingowaNowa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaNowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdtwarzanieDanych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParametryLokalne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PobierzDaneMiesieczne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PobierzObrotyzTOFI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PobierzObrotyzTOFIdoAnalizy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PobierzObrotyzTOFIdoAnalizy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PobierzPrognozydoAnalizy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PokazPlikEXCEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PokazPlikXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PokazPlikZIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proteza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaportNowaAkcjaMarketingowa.designer.vb">
+      <DependentUpon>RaportNowaAkcjaMarketingowa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaportNowaAkcjaMarketingowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaportUsunAkcjaMarketingowa.designer.vb">
+      <DependentUpon>RaportUsunAkcjaMarketingowa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaportUsunAkcjaMarketingowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaportWybierzAkcjeMarketingowa.designer.vb">
+      <DependentUpon>RaportWybierzAkcjeMarketingowa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaportWybierzAkcjeMarketingowa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaportWybierzAkcjeMarketingowaIDefBranze.designer.vb">
+      <DependentUpon>RaportWybierzAkcjeMarketingowaIDefBranze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaportWybierzAkcjeMarketingowaIDefBranze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaportWybierzAnalizeGrupowaKontaktow.designer.vb">
+      <DependentUpon>RaportWybierzAnalizeGrupowaKontaktow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaportWybierzAnalizeGrupowaKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchematFiltrowania.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendeMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SprawdzKatalogCoDalej.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SprawdzKatalogKontaktow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SprawdzKatalogObrotow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SprawdzKatalogObrotowMies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SprawdzKatalogOsob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestujPolaczenieZBazaDanych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierz.designer.vb">
+      <DependentUpon>AkcjaMarketingowaWybierz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkcjaMarketingowaWybierz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WybierzDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WybierzNrKarty.designer.vb">
+      <DependentUpon>WybierzNrKarty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WybierzNrKarty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltrowanieWybierzWartoscPola.Designer.vb">
+      <DependentUpon>FiltrowanieWybierzWartoscPola.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FiltrowanieWybierzWartoscPola.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WyliczZakupyPopRok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WyslijeMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WysylanieeMaili.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaczynamy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZalozBazeSQL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZmienNazwyKatalogKlientow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZmienNazwyKatalogOsob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmFiltrowanieWybierzWartoscPola.designer.vb">
+      <DependentUpon>_frmFiltrowanieWybierzWartoscPola.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_frmFiltrowanieWybierzWartoscPola.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmKatalogi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmKatalogiZawartosc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmOAutorach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmOProgramie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmPolaczenieSieciowe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_frmTestujPolaczenieZBazaDanych.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_modDataGridViewTools.vb" />
+    <Compile Include="_modDataSetTools.vb" />
+    <Compile Include="_modDataViewTools.vb" />
+    <Compile Include="_modeMail.vb" />
+    <Compile Include="_modExcel.vb" />
+    <Compile Include="_modFiltrowanieDataGridView.vb" />
+    <Compile Include="_modSQLServer.vb" />
+    <Compile Include="_modThunderBird.vb" />
+    <None Include="Resources\ROZWIN3.ICO" />
+    <None Include="Resources\ESCAPE2.ICO" />
+    <None Include="Resources\ESCAPE.ICO" />
+    <EmbeddedResource Include="AkcjaMarketingowaWybierzWgOsobKontaktowych.resx">
+      <DependentUpon>AkcjaMarketingowaWybierzWgOsobKontaktowych.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogBranze.resx">
+      <DependentUpon>EdytujKatalogBranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogPodbranze.resx">
+      <DependentUpon>EdytujKatalogPodbranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdytujKatalogLogAktywnosci.resx">
+      <DependentUpon>frmEdytujKatalogLogAktywnosci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportujKlientow.resx">
+      <DependentUpon>frmImportujKlientow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKatalogLogAktywnosci.resx">
+      <DependentUpon>frmKatalogLogAktywnosci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPobierzZPlikuBranze.resx">
+      <DependentUpon>frmPobierzZPlikuBranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogBranze.resx">
+      <DependentUpon>KatalogBranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogPodbranze.resx">
+      <DependentUpon>KatalogPodbranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaportWybierzAkcjeMarketingowaIDefBranze.resx">
+      <DependentUpon>RaportWybierzAkcjeMarketingowaIDefBranze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZmienNazwyKatalogKlientow.resx">
+      <DependentUpon>ZmienNazwyKatalogKlientow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZmienNazwyKatalogOsob.resx">
+      <DependentUpon>ZmienNazwyKatalogOsob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmTestujPolaczenieZBazaDanych.resx">
+      <DependentUpon>_frmTestujPolaczenieZBazaDanych.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Analiza_Marketingowa.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Analiza_RankingWskaznikow.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Tabela.ICO" />
+    <None Include="Resources\MrJones.ico" />
+    <None Include="Resources\MrJones1.ico" />
+    <None Include="Resources\Globe.ico" />
+    <None Include="Resources\KOPERTA.ICO" />
+    <EmbeddedResource Include="frmEksportDanychAnalizaMarketingowa.resx">
+      <DependentUpon>frmEksportDanychAnalizaMarketingowa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEksportDanychRankingWskaznikow.resx">
+      <DependentUpon>frmEksportDanychRankingWskaznikow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKorektaRZU.resx">
+      <DependentUpon>frmKorektaRZU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PobierzPrognozydoAnalizy2.resx">
+      <DependentUpon>PobierzPrognozydoAnalizy2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmKatalogi.resx">
+      <DependentUpon>_frmKatalogi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmKatalogiZawartosc.resx">
+      <DependentUpon>_frmKatalogiZawartosc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmOAutorach.resx">
+      <DependentUpon>_frmOAutorach.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmOProgramie.resx">
+      <DependentUpon>_frmOProgramie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_frmPolaczenieSieciowe.resx">
+      <DependentUpon>_frmPolaczenieSieciowe.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\SZUKAJ3.ICO" />
+    <None Include="Resources\SZUKAJ2.ICO" />
+    <None Include="Resources\close_16.png" />
+    <None Include="Resources\EXIT.ICO" />
+    <None Include="Resources\logomini.gif" />
+    <EmbeddedResource Include="_frmFiltrowanieWybierzWartoscPola.resx">
+      <DependentUpon>_frmFiltrowanieWybierzWartoscPola.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Analiza_Klienci80.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Analiza_Wskaznikowa.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <EmbeddedResource Include="AkcjaMarketingowaDodajDo.resx">
+      <DependentUpon>AkcjaMarketingowaDodajDo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaUsunZ.resx">
+      <DependentUpon>AkcjaMarketingowaUsunZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaWybierzKilka.resx">
+      <DependentUpon>AkcjaMarketingowaWybierzKilka.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaWybierzWgObrotow.resx">
+      <DependentUpon>AkcjaMarketingowaWybierzWgObrotow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaWybierzWgSprzedazy.resx">
+      <DependentUpon>AkcjaMarketingowaWybierzWgSprzedazy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaWybierzWgUslug.resx">
+      <DependentUpon>AkcjaMarketingowaWybierzWgUslug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AktualizacjaStrukturBazyDanych.resx">
+      <DependentUpon>AktualizacjaStrukturBazyDanych.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiwizacjaDanych.resx">
+      <DependentUpon>ArchiwizacjaDanych.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiwizacjaDanychSQL.resx">
+      <DependentUpon>ArchiwizacjaDanychSQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clsSoftartColoredDataGridTableStyle2.resx">
+      <DependentUpon>clsSoftartColoredDataGridTableStyle2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clsSoftartDataGrid.resx">
+      <DependentUpon>clsSoftartDataGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clsSoftartDataGridTableStyle.resx">
+      <DependentUpon>clsSoftartDataGridTableStyle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clsSoftartDropShadowForm.resx">
+      <DependentUpon>clsSoftartDropShadowForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clsSoftartPrintDocument.resx">
+      <DependentUpon>clsSoftartPrintDocument.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoDziala.resx">
+      <DependentUpon>CoDziala.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujGeneratorWydrukow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EdytujGeneratorWydrukow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogAkcjeSpec.resx">
+      <DependentUpon>EdytujKatalogAkcjeSpec.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogAkcjiOpis.resx">
+      <DependentUpon>EdytujKatalogAkcjiOpis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogCoDalej.resx">
+      <DependentUpon>EdytujKatalogCoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogDaneDoRaportu.resx">
+      <DependentUpon>EdytujKatalogDaneDoRaportu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogKartPayBack.resx">
+      <DependentUpon>EdytujKatalogKartPayBack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogKlientow.resx">
+      <DependentUpon>EdytujKatalogKlientow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogKontaktow.resx">
+      <DependentUpon>EdytujKatalogKontaktow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogObrotow.resx">
+      <DependentUpon>EdytujKatalogObrotow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogObrotowMies.resx">
+      <DependentUpon>EdytujKatalogObrotowMies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogOsob.resx">
+      <DependentUpon>EdytujKatalogOsob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogRodzajowKontaktow.resx">
+      <DependentUpon>EdytujKatalogRodzajowKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogSlownikCoDalej.resx">
+      <DependentUpon>EdytujKatalogSlownikCoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdytujKatalogUzytkownikow.resx">
+      <DependentUpon>EdytujKatalogUzytkownikow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eMailing.resx">
+      <DependentUpon>eMailing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnalizaCzestKontaktow.resx">
+      <DependentUpon>frmAnalizaCzestKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnalizaCzestKontaktowGrupowa.resx">
+      <DependentUpon>frmAnalizaCzestKontaktowGrupowa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrukujRaportAktywnosci.resx">
+      <DependentUpon>frmDrukujRaportAktywnosci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrukujRaportAktywnosci0.resx">
+      <DependentUpon>frmDrukujRaportAktywnosci0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrukujRaportRealizacjiPlanu.resx">
+      <DependentUpon>frmDrukujRaportRealizacjiPlanu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrukujRaportRozkladKlientowIObrotu.resx">
+      <DependentUpon>frmDrukujRaportRozkladKlientowIObrotu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdytujKatalogUzytkownikow.resx">
+      <DependentUpon>frmEdytujKatalogUzytkownikow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdytujTabele.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEdytujTabele.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEksportDanychAnalizaKlienci80.resx">
+      <DependentUpon>frmEksportDanychAnalizaKlienci80.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEksportDanychAnalizaWskaznikowa.resx">
+      <DependentUpon>frmEksportDanychAnalizaWskaznikowa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIdentyfikacjaUzytkownika.resx">
+      <DependentUpon>frmIdentyfikacjaUzytkownika.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZmianaHasla.resx">
+      <DependentUpon>frmZmianaHasla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneratorWydrukow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GeneratorWydrukow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalendarz.resx">
+      <DependentUpon>Kalendarz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogAkcjiOpis.resx">
+      <DependentUpon>KatalogAkcjiOpis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogCoDalej.resx">
+      <DependentUpon>KatalogCoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogDaneDoRaportu.resx">
+      <DependentUpon>KatalogDaneDoRaportu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogHarmonogramWizyt.resx">
+      <DependentUpon>KatalogHarmonogramWizyt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katalogi.resx">
+      <DependentUpon>Katalogi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogiSQL.resx">
+      <DependentUpon>KatalogiSQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogiSQLZawartosc.resx">
+      <DependentUpon>KatalogiSQLZawartosc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogiZawartosc.resx">
+      <DependentUpon>KatalogiZawartosc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKartPayBack.resx">
+      <DependentUpon>KatalogKartPayBack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKlientow.resx">
+      <DependentUpon>KatalogKlientow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKlientowAnaliza.resx">
+      <DependentUpon>KatalogKlientowAnaliza.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKlientowICoDalej.resx">
+      <DependentUpon>KatalogKlientowICoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKlientowIKontaktow.resx">
+      <DependentUpon>KatalogKlientowIKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogKontaktow.resx">
+      <DependentUpon>KatalogKontaktow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogObrotow.resx">
+      <DependentUpon>KatalogObrotow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogObrotowMies.resx">
+      <DependentUpon>KatalogObrotowMies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogOsob.resx">
+      <DependentUpon>KatalogOsob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogRodzajowKontaktow.resx">
+      <DependentUpon>KatalogRodzajowKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogSlownikCoDalej.resx">
+      <DependentUpon>KatalogSlownikCoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatalogUzytkownikow.resx">
+      <DependentUpon>KatalogUzytkownikow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaNowa.resx">
+      <DependentUpon>AkcjaMarketingowaNowa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdtwarzanieDanych.resx">
+      <DependentUpon>OdtwarzanieDanych.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametry.resx">
+      <DependentUpon>Parametry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParametryLokalne.resx">
+      <DependentUpon>ParametryLokalne.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PobierzDaneMiesieczne.resx">
+      <DependentUpon>PobierzDaneMiesieczne.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PobierzObrotyzTOFI.resx">
+      <DependentUpon>PobierzObrotyzTOFI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PobierzObrotyzTOFIdoAnalizy.resx">
+      <DependentUpon>PobierzObrotyzTOFIdoAnalizy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PobierzObrotyzTOFIdoAnalizy2.resx">
+      <DependentUpon>PobierzObrotyzTOFIdoAnalizy2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PokazPlikEXCEL.resx">
+      <DependentUpon>PokazPlikEXCEL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PokazPlikXML.resx">
+      <DependentUpon>PokazPlikXML.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PokazPlikZIP.resx">
+      <DependentUpon>PokazPlikZIP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proteza.resx">
+      <DependentUpon>Proteza.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaportNowaAkcjaMarketingowa.resx">
+      <DependentUpon>RaportNowaAkcjaMarketingowa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaportUsunAkcjaMarketingowa.resx">
+      <DependentUpon>RaportUsunAkcjaMarketingowa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaportWybierzAkcjeMarketingowa.resx">
+      <DependentUpon>RaportWybierzAkcjeMarketingowa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaportWybierzAnalizeGrupowaKontaktow.resx">
+      <DependentUpon>RaportWybierzAnalizeGrupowaKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchematFiltrowania.resx">
+      <DependentUpon>SchematFiltrowania.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendeMail.resx">
+      <DependentUpon>SendeMail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprawdzKatalogCoDalej.resx">
+      <DependentUpon>SprawdzKatalogCoDalej.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprawdzKatalogKontaktow.resx">
+      <DependentUpon>SprawdzKatalogKontaktow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprawdzKatalogObrotow.resx">
+      <DependentUpon>SprawdzKatalogObrotow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprawdzKatalogObrotowMies.resx">
+      <DependentUpon>SprawdzKatalogObrotowMies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprawdzKatalogOsob.resx">
+      <DependentUpon>SprawdzKatalogOsob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestujPolaczenieZBazaDanych.resx">
+      <DependentUpon>TestujPolaczenieZBazaDanych.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcjaMarketingowaWybierz.resx">
+      <DependentUpon>AkcjaMarketingowaWybierz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WybierzDate.resx">
+      <DependentUpon>WybierzDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WybierzNrKarty.resx">
+      <DependentUpon>WybierzNrKarty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiltrowanieWybierzWartoscPola.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FiltrowanieWybierzWartoscPola.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WyliczZakupyPopRok.resx">
+      <DependentUpon>WyliczZakupyPopRok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WyslijeMail.resx">
+      <DependentUpon>WyslijeMail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WysylanieeMaili.resx">
+      <DependentUpon>WysylanieeMaili.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaczynamy.resx">
+      <DependentUpon>Zaczynamy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZalozBazeSQL.resx">
+      <DependentUpon>ZalozBazeSQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="MrJones.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
