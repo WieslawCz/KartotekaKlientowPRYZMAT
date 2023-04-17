@@ -1297,9 +1297,6 @@ D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\KartotekaKli
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\KartotekaKlientow.exe
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\KartotekaKlientow.pdb
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\KartotekaKlientow.xml
-D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\Microsoft.SqlServer.ConnectionInfo.dll
-D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\bin\Microsoft.SqlServer.SqlClrProvider.dll
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.vbproj.AssemblyReference.cache
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.vbproj.ResolveComReference.cache
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.AkcjaMarketingowaWybierzWgOsobKontaktowych.resources
@@ -1429,3 +1426,4 @@ D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\Kartot
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.exe
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.xml
 D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.pdb
+D:\!__VB.vs2022\_Pryzmat\KartotekaKlientow_52\KartotekaKlientow\obj\Debug\KartotekaKlientow.vbproj.SuggestedBindingRedirects.cache
